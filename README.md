@@ -14,19 +14,19 @@ Here is an example "WinConsole_sample.py", the main steps include:
 
 2) import this module
 
-```
+```Python
 import WinConsole
 ```
 
 3) create a object of WinConsole
 
-```
+```Python
 c = WinConsole.WinConsoleClass()
 ```
 
 4) call some functions of WinConsole, such as
 
-```
+```Python
 c.get_console_color()
 ```
 
@@ -39,9 +39,7 @@ get current console backgroud color and foregroud color
 *input: nothing*
 
 *return: a dict with "bg_color", "fg_color" elements.*
-
-
-
+</br>
 ## set\_console\_color(fg_color, bg_color) ##
 
 set current console backgroud color and foregroud color
@@ -49,8 +47,7 @@ set current console backgroud color and foregroud color
 *input: foregroud color as "fg_color", backgroud color as "bg_color"*
 
 *return: nothing*
-
-
+</br>
 ## restore\_console\_color() ##
 
 restore backgroud color and foregroud color when you create the object of WinConsole
@@ -58,9 +55,7 @@ restore backgroud color and foregroud color when you create the object of WinCon
 *input: nothing*
 
 *return: nothing*
-
-
-
+</br>
 ## restore\_console\_default\_color() ##
 
 restore the console defautl backgroud color(FOREGROUND_GREY) and foregroud (BACKGROUND_BLACK) color.
@@ -68,9 +63,7 @@ restore the console defautl backgroud color(FOREGROUND_GREY) and foregroud (BACK
 *input: nothing*
 
 *return: nothing*
-
-
-
+</br>
 ## get\_console\_cursor\_pos() ##
 
 get current console cursor position
@@ -87,9 +80,7 @@ set current console cursor position
 *input: horizontal axis as "x", vertical axis as "y"*
 
 *return: nothing*
-
-
-
+</br>
 ## print\_in\_one\_line(str, \*\*kwargs) ##
 
 you can print something within one line, such as a percent of progress.
