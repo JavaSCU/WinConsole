@@ -72,7 +72,7 @@ get current console cursor position
 
 *return: a coordinate dict with "x", "y" elements.*
 </br>
-## set\_console\_cursor\_pos(self, x, y) ##
+## set\_console\_cursor\_pos(x, y) ##
 
 set current console cursor position
 
